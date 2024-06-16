@@ -14,7 +14,7 @@
     "pi4_alt_fstab": "false",
     "lockdown_root": "false",
     "pi4_bootloader": "false",
-    "pi5_bootloader": "true",
+    "pi5_bootloader": "false",
     "cm4_usb": "false"
   },
   "builders": [{
