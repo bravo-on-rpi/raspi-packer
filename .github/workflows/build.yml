@@ -3,7 +3,7 @@ name: build
 on: [workflow_dispatch]
 
 env:
-  PACKER_VERSION: latest
+  PACKER_VERSION: '1.11.0'
   LIBARCHIVE_VERSION: 3.7.2
   GO_VERSION: '^1.21.6'
   PACKER_CACHE_DIR: ~/packer_cache/
