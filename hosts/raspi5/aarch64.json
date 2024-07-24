@@ -1,6 +1,6 @@
 {
-    "hostname": "alarm-rpi5-aarch64",
-    "size": "4G",
+    "hostname": "rpi.local",
+    "size": "8G",
     "img_url": "http://os.archlinuxarm.org/os/ArchLinuxARM-rpi-aarch64-latest.tar.gz",
     "img_name": "raspberry-pi5-aarch64.img",
     "qemu_binary": "/usr/bin/qemu-aarch64-static",

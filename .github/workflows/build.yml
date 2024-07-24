@@ -1,6 +1,6 @@
 name: build
 
-on: [push, workflow_dispatch]
+on: [workflow_dispatch]
 
 env:
   PACKER_VERSION: v1.11.1
@@ -20,27 +20,6 @@ jobs:
           imgName: raspberry-pi5-aarch64.img
         - path: ./hosts/raspi5/aarch64-debug.json
           imgName: raspberry-pi5-aarch64-debug.img
-        - path: ./hosts/raspi4/aarch64.json
-          imgName: raspberry-pi4-aarch64.img
-        - path: ./hosts/raspi4/aarch64-debug.json
-          imgName: raspberry-pi4-aarch64-debug.img
-        - path: ./hosts/raspi4/aarch64-cm4.json
-          imgName: raspberry-pi4-aarch64-cm4.img
-        - path: ./hosts/raspi4/aarch64-cm4-debug.json
-          imgName: raspberry-pi4-aarch64-cm4-debug.img
-        - path: ./hosts/raspi4/armv7.json
-          imgName: raspberry-pi4-armv7.img
-        - path: ./hosts/raspi4/armv7-debug.json
-          imgName: raspberry-pi4-armv7-debug.img
-        #- path: ./hosts/raspi3/aarch64.json
-        #  imgName: raspberry-pi3.img
-        #- path: ./hosts/raspi4/ace.json
-        #  imgName: ace.img
-        #- path: ./hosts/raspi4/ace-64.json
-        #  imgName: ace-64.img
-
-
-
     steps:
     # CODE
     - uses: actions/checkout@v4
